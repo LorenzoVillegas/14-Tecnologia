@@ -20,7 +20,9 @@
       <tbody>
         <tr *ngFor="let g of goty">
           <td>{{ g.anno }}</td>
-          <td><a href="{{ g.wikipedia }}" target="_blank" class="text-black" style="text-decoration: none;">
+          <td>
+            <img src= "{{g.img}}" width="60" length="60">
+            <a href="{{ g.wikipedia }}" target="_blank" class="text-black" style="text-decoration: none;">
             {{ g.nome }}</a>
           </td>
           <td>{{ g.sviluppo }}</td>

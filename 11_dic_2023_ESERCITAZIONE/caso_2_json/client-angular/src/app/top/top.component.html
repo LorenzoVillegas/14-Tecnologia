@@ -21,7 +21,10 @@
       <tbody>
         <tr *ngFor="let t of top">
           <td>{{t.posizione}}</td>
-          <td><a href="{{t.link}}" target="_blank" class="text-black" style="text-decoration: none;">{{t.sviluppo}}</a></td>
+          <td>
+            <img src="{{t.img}}" width="60" length="60">
+            <a href="{{t.link}}" target="_blank" class="text-black" style="text-decoration: none;">{{t.sviluppo}}</a>
+          </td>
           <td>{{t.paese}}</td>
         </tr>
       </tbody>

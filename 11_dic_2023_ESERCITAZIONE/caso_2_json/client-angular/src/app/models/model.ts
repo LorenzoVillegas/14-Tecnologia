@@ -3,6 +3,7 @@ export class Goty{
     public nome:string;
     public sviluppo:string;
     public wikipedia:string;
+    public img:string;
 }
 
 export class Top10{
@@ -10,4 +11,5 @@ export class Top10{
     public sviluppo:string;
     public paese:string;
     public link:string;
+    public img: string;
 }
